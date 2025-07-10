@@ -41,7 +41,7 @@ Deploy DOKS cluster from Jenkins pipeline
    
 3. In the Overview section of the cluster configuration, download the cluster configuration file.
    
-   <img src="https://github.com/lala-la-flaca/DevOpsBootcamp_10_Kubernetes_DO_MongoDB/blob/main/Img/3%20overview%20download%20config.png" width=800 />
+   <img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/2%20download%20config%20file.PNG" width=800 />
    
 4. Update the file permissions to read-only.
 
