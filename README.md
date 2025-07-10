@@ -46,13 +46,13 @@ Deploy DOKS cluster from Jenkins pipeline
 4. Update the file permissions to read-only.
 
    ```bash
-   chmod 400 k8s-1-32-2-do-1-nyc1-1746734593185-kubeconfig.yaml
+   chmod 400 k8s-1-32-2-do-3-nyc1-1749086389206-kubeconfig.yaml
    ```
    
 5. Set the KUBECONFIG environment variable to the path of the configuration file.
     
    ```bash
-   export KUBECONFIG=k8s-1-32-2-do-1-nyc1-1746734593185-kubeconfig.yaml   
+   export KUBECONFIG=k8s-1-32-2-do-3-nyc1-1749086389206-kubeconfig.yaml  
    ```
    
    <img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/3%20pointing%20kubectl%20to%20digitalocean%20cluster.PNG" width=800 />
