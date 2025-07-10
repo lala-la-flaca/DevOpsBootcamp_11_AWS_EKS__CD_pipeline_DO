@@ -37,7 +37,7 @@ Deploy DOKS cluster from Jenkins pipeline
    
 2. Configure the cluster by specifying the node pool name, data center region, and cluster capacity
    
-   <img src="" width=800 />
+   <img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/1%20create%20DO%20K8%20cluster.png" width=800 />
    
 3. In the Overview section of the cluster configuration, download the cluster configuration file.
    
@@ -49,15 +49,13 @@ Deploy DOKS cluster from Jenkins pipeline
    chmod 400 k8s-1-32-2-do-1-nyc1-1746734593185-kubeconfig.yaml
    ```
    
-   <img src=" width=800 />
-   
 5. Set the KUBECONFIG environment variable to the path of the configuration file.
     
    ```bash
    export KUBECONFIG=k8s-1-32-2-do-1-nyc1-1746734593185-kubeconfig.yaml   
    ```
    
-   <img src="" width=800 />
+   <img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/3%20pointing%20kubectl%20to%20digitalocean%20cluster.PNG" width=800 />
    
 6. Verify that the nodes are active
 
@@ -73,7 +71,7 @@ Deploy DOKS cluster from Jenkins pipeline
 2. Go to Manage Jenkins > Plugins > Available Plugins.
 
 3. Search for Kubernetes CLI
-   <img src="" width=800 />
+   <img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/5%20jenkins%20install%20k8%20CLI%20plugin.png" width=800 />
 
 4. Click Install
 
@@ -86,7 +84,7 @@ Deploy DOKS cluster from Jenkins pipeline
    * ID: Add an ID to the New Credentials
 3. Save
 
-<img src="" width=800 />
+<img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/4%20create%20crentials%20for%20digital%20ocean%20importing%20the%20config%20file.png" width=800 />
 
 ### Updating Jenkins File
 1. In your Java-Maven-App repository, create a new feature branch
@@ -108,7 +106,9 @@ Deploy DOKS cluster from Jenkins pipeline
           }
 
    ```
-<img src="" width=800 />
+<img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/6%20addiing%20authentication%20to%20pipeline.png" width=800 />
 
 4. Run pipeline
-<img src="" width=800 />
+<img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/7%20pipeline%20ok.PNG" width=800 />
+
+<img src="https://github.com/lala-la-flaca/DevOpsBootcamp_11_AWS_EKS__CD_pipeline_DO/blob/main/Img/8%20nginx%20pod%20running.PNG" width=800 />
