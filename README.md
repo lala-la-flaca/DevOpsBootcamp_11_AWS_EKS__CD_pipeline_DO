@@ -14,14 +14,14 @@ Deploy DOKS cluster from Jenkins pipeline
 - **DigitalOcean**: hosting Jenkins server and Managed Kubernetes Cluster.
   
 ## 📋 Prerequisites
-- Ensure you have an DigitalOcean Account.
+- Ensure you have a DigitalOcean Account.
 - Kubectl is installed and configured to connect to the Kubernetes cluster.
 - Jenkins server is running
-- We are going to use the java-mave-app repository from previous demo.
+- We are going to use the Java-Maven-App repository from the previous demo.
   
 ## 🎯 Features
-- Create K8 Cluster on DigitalOcean.
-- Install kubectl as Jenkins Plugin.
+- Create a K8 Cluster on DigitalOcean.
+- Install kubectl as a Jenkins Plugin.
 - Update Jenkinsfile to use the Plugin and deploy DOKS
 ## 🏗 Project Architecture
 
